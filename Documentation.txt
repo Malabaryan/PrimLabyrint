@@ -32,9 +32,9 @@ http://lazyfoo.net/tutorials/SDL/01_hello_SDL/index.php
 
 2) Prepare Project:
 
-	*Go to Properties of the project
-	*Click on Project's build options...
-	*Add to Other linker list 
+	* Go to Properties of the project
+	* Click on Project's build options...
+	* Add to Other linker list 
 
 		-lSDL2
 
@@ -43,3 +43,9 @@ http://lazyfoo.net/tutorials/SDL/01_hello_SDL/index.php
 	Adding 
 
 		#include<SDL2/SDL.h>
+
+
+Code Based on:
+	* http://www.cplusplus.com/forum/beginner/71319/
+	* Code provided by Jose Navas Su on Data Structures Course on Tecnologico de Costa Rica
+	
