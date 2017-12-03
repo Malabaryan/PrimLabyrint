@@ -1,0 +1,45 @@
+Documentation
+
+Install SDL:
+Tutorial based on LazyFoo's Production tutorial for Code::Blocks On Ubuntu
+http://lazyfoo.net/tutorials/SDL/01_hello_SDL/index.php
+
+1)Get SDL:
+
+
+	Install SDL from console:
+
+		Get Library
+		$ apt-cache search libsdl2
+
+		Get file to install
+		$ apt-get install libsdl2-dev
+
+	Or download source from:
+		
+		Download from:
+		https://www.libsdl.org/download-2.0.php#source
+
+		Extract the archive and cd to the folder that got extracted. Configure the installation using:
+		$ ./configure
+
+		Compile with:
+		$ make all
+
+		And install:
+		$ make install
+
+
+2) Prepare Project:
+
+	*Go to Properties of the project
+	*Click on Project's build options...
+	*Add to Other linker list 
+
+		-lSDL2
+
+3) Use Library:
+
+	Adding 
+
+		#include<SDL2/SDL.h>
